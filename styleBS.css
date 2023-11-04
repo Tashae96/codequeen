@@ -1,0 +1,136 @@
+*{width: 100;}
+body{
+    background-color: rgb(241, 233, 233);
+}
+.navbar {
+    height: 75px;
+    margin: auto;
+    background-color: aliceblue;
+    color: black;
+width: 100;}
+
+.icon {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.logo 
+{
+    color: rgb(9, 6, 209);
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 15px;
+    float: left;
+    margin-left: 5px; 
+}
+
+.menu {
+    width: 800px;
+    float: right;
+    height: 70px;
+}
+
+ul {
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: red;
+
+}
+.image{
+background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(hallvenue.jpg);
+background-size: cover;
+height: 350px;
+}
+
+.title{
+    color: aliceblue;
+    height: 300px;
+    padding-left: 175px;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 100px;
+}
+.detail{
+    background-color: aliceblue;
+    height: 250px;
+}
+.details{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+#infos{
+    width: 1000px;
+    justify-content:space-between;
+    padding: 10px;
+}
+i{ font-size: larger;
+justify-content: center;}
+.search{color: red;}
+p{ font-size: 12px;
+color: rgb(37, 19, 19);}
+#infos li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    justify-content: space-between;
+   }
+.venues{
+    width: 800px;
+    height: 200px;
+    display: flex;
+}
+.garden1{
+    display: flex;
+    margin-top: 40px;
+}
+.imagegarden{
+    width: 100px;
+    height: 150px;
+    border-radius: 20%;
+}
+.gardencontainer{
+    display: inline-block;
+}
+.description{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+}
+.placename a{
+    text-decoration: none;
+    color: black;
+}
+.placename :hover{
+    color: red;
+    font-size: 36px;
+
+}
